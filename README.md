@@ -32,7 +32,6 @@ cd node-load-tester
 ### Install Dependencies
 
 ```sh
-Copy code
 npm install
 ```
 

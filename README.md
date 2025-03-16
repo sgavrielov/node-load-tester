@@ -89,10 +89,10 @@ loadtest http://localhost:3000 10000 100
 
 ## 🛠️ How It Works
 
-1️⃣ Parses CLI arguments to determine URL, total requests, and concurrency
-2️⃣ Sends concurrent HTTP GET requests using fetch()
-3️⃣ Tracks successful & failed requests
-4️⃣ Calculates average response time
+- 1️⃣ Parses CLI arguments to determine URL, total requests, and concurrency
+- 2️⃣ Sends concurrent HTTP GET requests using fetch()
+- 3️⃣ Tracks successful & failed requests
+- 4️⃣ Calculates average response time
 
 ## 📌 Dependencies
 

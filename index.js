@@ -21,7 +21,7 @@ if (url === undefined) {
  * @param {number} n - The number to format.
  * @returns {string} - The formatted number as a string.
  */
-const nf = (n) => new Intl.NumberFormat("en").format(n);
+const nf = (n) => new Intl.NumberFormat().format(n);
 
 /**
  * Sends a single HTTP GET request and measures the response time.
